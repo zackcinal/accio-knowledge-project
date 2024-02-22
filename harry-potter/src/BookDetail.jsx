@@ -30,7 +30,7 @@ function BookDetail() {
         <div className="container">
           <div className="inside-book">
             <h2>{book.attributes.title}</h2>
-            <img src={book.attributes.cover} />
+            <img src={book.attributes.cover} alt="book cover" />
             <h5>Summary</h5>
             <p>{book.attributes.summary}</p>
             <p>

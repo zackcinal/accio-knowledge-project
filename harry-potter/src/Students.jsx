@@ -53,7 +53,7 @@ function Students() {
           />
           {filteredData.map((student) => (
             <div key={student.id} className="student">
-              <img src={student.image} />
+              <img src={student.image} alt="student image" />
               <h2>{student.name}</h2>
               <h4>{student.alternate_names[0]}</h4>
               <p>House: {student.house}</p>

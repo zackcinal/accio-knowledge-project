@@ -21,7 +21,7 @@ function App() {
           <Link to="/Tabs2"><span className="link-span">Books & Movies</span></Link>
         </nav>
         <Routes>
-          <Route path="/Tabs" element={<Tabs />} />
+          <Route path="/Tabs/*" element={<Tabs />} />
           <Route path="/Tabs2" element={<Tabs2 />} />
           <Route path="/books/:book_id" element={<BookDetail />} />
           <Route path="/movies/:movie_id" element={<MovieDetail />} />

@@ -33,8 +33,8 @@ function Books() {
               <img src={book.attributes.cover} />
               <h2>{book.attributes.title}</h2>
               <p>📅{book.attributes.release_date}</p>
-              <p>📄 {book.attributes.pages}</p>
-              <p>🖋️ {book.attributes.author}</p>
+              <p>📄{book.attributes.pages}</p>
+              <p>🖋️{book.attributes.author}</p>
                 <Link to={`/books/${book.id}`}>
                      <button className="media-button">View More Info</button>
                 </Link>

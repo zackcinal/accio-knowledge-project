@@ -49,7 +49,7 @@ function Staff() {
           />
           {filteredData.map((staff) => (
             <div key={staff.id} className="staff-in">
-              <img src={staff.image} />
+              <img src={staff.image} alt="staff image"/>
               <h2>{staff.name}</h2>
               <p>House: {staff.house}</p>
               <p>Year of birth: {staff.yearOfBirth}</p>

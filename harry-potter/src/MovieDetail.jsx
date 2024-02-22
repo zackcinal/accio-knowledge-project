@@ -32,7 +32,7 @@ function MovieDetail() {
         <div className="container">
           <div className="inside-movie">
             <h2>{movie.attributes.title}</h2>
-            <img src={movie.attributes.poster} />
+            <img src={movie.attributes.poster} alt="movie poster" />
             <h5>Summary</h5>
             <p>{movie.attributes.summary}</p>
             <div className="movie-p">
