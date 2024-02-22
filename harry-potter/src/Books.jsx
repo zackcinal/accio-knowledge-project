@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-// import "./Books.css"
 
 function Books() {
   const [data, setData] = useState([]);
