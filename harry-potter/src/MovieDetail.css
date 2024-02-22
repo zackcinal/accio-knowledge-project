@@ -1,0 +1,52 @@
+.inside-movie {
+  margin: 50px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.movie {
+  padding: 10px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+h5 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+img {
+  display: flex;
+  align-self: center;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.movie-span {
+  font-style: italic;
+  padding-right: 30px;
+  text-decoration: underline;
+}
+
+.movie-p {
+  text-align: left;
+}
+
+.movie-p #text {
+  text-align: right;
+}
+
+div.container a {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
