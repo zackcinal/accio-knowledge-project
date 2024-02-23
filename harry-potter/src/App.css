@@ -6,6 +6,12 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.namdhinggo-regular {
+  font-family: "Namdhinggo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .App {
   display: flex;
   width: auto;
@@ -117,6 +123,27 @@ ul.react-tabs__tab-list {
   flex-direction: row;
 }
 
+div.student {
+  border: 2px solid rgb(192, 180, 130);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.student h4 {
+  font-style: italic;
+}
+
+.student p {
+  justify-content: center;
+}
+
+.student-span {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(184, 176, 176);
+}
+
 /* STAFF CSS */
 .staff {
   display: flex;
@@ -149,11 +176,13 @@ ul.react-tabs__tab-list {
 div.staff-in {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  border: 2px solid rgb(192, 180, 130);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 div.staff-in p {
-  text-align: center;
+  justify-content: center;
 }
 
 /* SPELLS CSS */

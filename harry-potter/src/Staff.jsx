@@ -51,8 +51,8 @@ function Staff() {
             <div key={staff.id} className="staff-in">
               <img src={staff.image} alt="staff image"/>
               <h2>{staff.name}</h2>
-              <p>House: {staff.house}</p>
-              <p>Year of birth: {staff.yearOfBirth}</p>
+              <p><span className="student-span">House: </span>{staff.house}</p>
+              <p><span className="student-span">Year of birth: </span>{staff.yearOfBirth}</p>
             </div>
           ))}
         </div>

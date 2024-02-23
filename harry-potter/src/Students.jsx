@@ -56,9 +56,9 @@ function Students() {
               <img src={student.image} alt="student image" />
               <h2>{student.name}</h2>
               <h4>{student.alternate_names[0]}</h4>
-              <p>House: {student.house}</p>
-              <p>Ancestry: {student.ancestry}</p>
-              <p>Wand Core: {student.wand.core}</p>
+              <p><span className="student-span">House: </span>{student.house}</p>
+              <p><span className="student-span">Date of birth: </span>{student.dateOfBirth}</p>
+              <p><span className="student-span">Patronus: </span>{student.patronus}</p>
             </div>
           ))}
         </div>
